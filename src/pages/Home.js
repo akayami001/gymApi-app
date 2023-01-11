@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Exercises from '../components/Exercises';
+import Membership from '../components/Membership';
 import SearchExercises from '../components/SearchExercises';
 import Slider from '../components/Slider';
 
@@ -10,6 +11,7 @@ const Home = () => {
   return (
     <div>
       <Slider />
+      <Membership />
       <SearchExercises />
       <Exercises />
     </div>
